@@ -2,7 +2,7 @@
 
 This repository contains the code and data for my master thesis on "Naive vs Smart Suppliers in Two-sided Online Marketplaces For Different Price-Setting Entities".
 
-From the `pipeline.py` file, all important functions can be called. Before, the required folder structure must be set up.
+From the `pipeline.py` file, all important functions can be called. Before, the required folder structure must be set up. The testing elements refer to scenario 1, the simulation structure produces scenario 2.
 
 ## Folder Structure
 
@@ -17,7 +17,7 @@ From the `pipeline.py` file, all important functions can be called. Before, the 
   - `environments`: Environments for different algorithms.
   - `testing`: Different algorithm testing implementations. This is equal to scenario 1.
   - `logs`: Empty folder for training logs.
-- `simulations`: Contains simulation modules.
+- `simulations`: Contains simulation modules. This is equal to scenario 2.
   - `classes.py`: Basic classes for suppliers, buyers and matches.
   - `simulation.py`: Functions for running simulations.
 - `results`: Contains modules for hypothesis testing.
